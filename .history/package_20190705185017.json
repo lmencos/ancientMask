@@ -4,10 +4,8 @@
   "private": true,
   "homepage": "https://lmencos.github.io/ancientMask/",
   "dependencies": {
-    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "three": "^0.106.2",
     "three-js": "^79.0.0"
@@ -16,9 +14,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
