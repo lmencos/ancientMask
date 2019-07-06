@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ancientMask/static/css/main.d65ecdb2.chunk.css",
+    "main.js": "/ancientMask/static/js/main.ef8749f7.chunk.js",
+    "main.js.map": "/ancientMask/static/js/main.ef8749f7.chunk.js.map",
+    "runtime~main.js": "/ancientMask/static/js/runtime~main.3d8bd661.js",
+    "runtime~main.js.map": "/ancientMask/static/js/runtime~main.3d8bd661.js.map",
+    "static/js/2.6693dcaa.chunk.js": "/ancientMask/static/js/2.6693dcaa.chunk.js",
+    "static/js/2.6693dcaa.chunk.js.map": "/ancientMask/static/js/2.6693dcaa.chunk.js.map",
+    "index.html": "/ancientMask/index.html",
+    "precache-manifest.53d23b9c793ed98c1f0dba630314d5dd.js": "/ancientMask/precache-manifest.53d23b9c793ed98c1f0dba630314d5dd.js",
+    "service-worker.js": "/ancientMask/service-worker.js",
+    "static/css/main.d65ecdb2.chunk.css.map": "/ancientMask/static/css/main.d65ecdb2.chunk.css.map"
+  }
+}
