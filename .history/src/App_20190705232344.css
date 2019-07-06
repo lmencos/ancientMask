@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.App .Mask {
+  border: 1px solid blue;
+}

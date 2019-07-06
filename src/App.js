@@ -7,7 +7,11 @@ class App extends Component {
     return (
       <div className="App">
         <h3>I am App from React 16.8.6</h3>
-        <Mask />
+
+        <div className="Mask">
+          <Mask />
+        </div>
+        
         <small>App made by Luis Mencos</small>
         <p>
         <small>support: Alexander Solovyeb</small>

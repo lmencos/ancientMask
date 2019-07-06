@@ -52,7 +52,7 @@ class Mask extends Component {
       scene.add(light4);
 
       renderer = new THREE.WebGLRenderer({ antialias: true });
-      renderer.setSize(window.innerWidth, window.innerHeight);
+      renderer.setSize(window.innerWidth * 1, window.innerHeight * 1);
       document.body.appendChild(renderer.domElement);
 
       window.addEventListener('resize', () => {
@@ -70,7 +70,7 @@ class Mask extends Component {
         url,
         (gltf) => {
           let mask = gltf.scene.children[0];
-          mask.scale.set(2, 2, 2);
+          mask.scale.set(0.5, 0.5, 0.5);
           scene.add(gltf.scene);
           animate();
         },
@@ -81,13 +81,17 @@ class Mask extends Component {
           console.error('An error has happened', error)
         },
       );
-
     }
 
     let animate = () => {
       renderer.render(scene, camera);
       requestAnimationFrame(animate);
     }
+
+    window.addEventListener('onMouseWheel', (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+    } )
 
     init();
     // === THREE.JS EXAMPLE CODE END ===
