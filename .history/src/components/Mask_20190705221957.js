@@ -55,14 +55,6 @@ class Mask extends Component {
       renderer.setSize(window.innerWidth, window.innerHeight);
       document.body.appendChild(renderer.domElement);
 
-      window.addEventListener('resize', () => {
-          let width = window.innerWidth;
-          let height = window.innerHeight;
-          renderer.setSize( width, height );
-          camera.aspect = width / height;
-          camera.updateProjectionMatrix( );
-      } )
-
 
       const loader = new THREE.GLTFLoader();
       const url = "https://raw.githubusercontent.com/lmencos/just-a-car/master/src/model/scene.gltf";
