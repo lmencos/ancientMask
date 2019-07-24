@@ -63,6 +63,12 @@ class Mask extends Component {
           camera.updateProjectionMatrix( );
       } )
 
+      
+      window.addEventListener('onMouseWheel', (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+      } )
+
 
       const loader = new THREE.GLTFLoader();
       const url = "https://raw.githubusercontent.com/lmencos/just-a-car/master/src/model/scene.gltf";
@@ -87,11 +93,6 @@ class Mask extends Component {
       renderer.render(scene, camera);
       requestAnimationFrame(animate);
     }
-
-    window.addEventListener('onMouseWheel', (event) => {
-      event.preventDefault();
-      event.stopPropagation();
-    } )
 
     init();
     // === THREE.JS EXAMPLE CODE END ===
