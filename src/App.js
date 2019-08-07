@@ -15,6 +15,7 @@ class App extends Component {
         <small>App made by Luis Mencos</small>
         <p>
         <small>support: Alexander Solovyeb</small>
+        <p><small>Please note this is a demo only, wait a few seconds</small></p>
         </p>
 
       </div>
