@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ancientMask/static/css/main.cc882f0d.chunk.css",
-    "main.js": "/ancientMask/static/js/main.665c9d53.chunk.js",
-    "main.js.map": "/ancientMask/static/js/main.665c9d53.chunk.js.map",
+    "main.js": "/ancientMask/static/js/main.bd0d6017.chunk.js",
+    "main.js.map": "/ancientMask/static/js/main.bd0d6017.chunk.js.map",
     "runtime~main.js": "/ancientMask/static/js/runtime~main.3d8bd661.js",
     "runtime~main.js.map": "/ancientMask/static/js/runtime~main.3d8bd661.js.map",
     "static/js/2.9ee262dd.chunk.js": "/ancientMask/static/js/2.9ee262dd.chunk.js",
     "static/js/2.9ee262dd.chunk.js.map": "/ancientMask/static/js/2.9ee262dd.chunk.js.map",
     "index.html": "/ancientMask/index.html",
-    "precache-manifest.0c7273f56fb486e8d62f3765d42e2296.js": "/ancientMask/precache-manifest.0c7273f56fb486e8d62f3765d42e2296.js",
+    "precache-manifest.9174490ec692b7cebf6b66749fcbfdd1.js": "/ancientMask/precache-manifest.9174490ec692b7cebf6b66749fcbfdd1.js",
     "service-worker.js": "/ancientMask/service-worker.js",
     "static/css/main.cc882f0d.chunk.css.map": "/ancientMask/static/css/main.cc882f0d.chunk.css.map"
   }

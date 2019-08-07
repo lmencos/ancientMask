@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "625b31664edd1d7487c9c182d5cc82fa",
+    "revision": "267c45002ef1e44d6fd9b42d895f9a92",
     "url": "/ancientMask/index.html"
   },
   {
-    "revision": "9ae148686af5afdd6ef9",
+    "revision": "f593900580e5f16e62ee",
     "url": "/ancientMask/static/css/main.cc882f0d.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ancientMask/static/js/2.9ee262dd.chunk.js"
   },
   {
-    "revision": "9ae148686af5afdd6ef9",
-    "url": "/ancientMask/static/js/main.665c9d53.chunk.js"
+    "revision": "f593900580e5f16e62ee",
+    "url": "/ancientMask/static/js/main.bd0d6017.chunk.js"
   },
   {
     "revision": "c90c4bda75504e59e2b5",
